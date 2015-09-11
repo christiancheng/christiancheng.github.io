@@ -81,7 +81,7 @@ a:hover {
 	color: #3c8cba;
 }
 
-/* .button {
+.button {
    border: 0px solid #24a4c7;
    background: #27a4c7;
    background: -webkit-gradient(linear, left top, left bottom, from(#27a4c7), to(#27a4c7));
@@ -128,7 +128,7 @@ a:hover {
    background-image: -ms-linear-gradient(top, #3c8cba 0%, #3c8cba 100%);
    color: #fff;
    }
-.button1 {
+/* .button1 {
    float:left;
    width:45%;
    border: 0px solid #24a4c7;
@@ -225,7 +225,7 @@ a:hover {
    background: -o-linear-gradient(top, #3c8cba, #3c8cba);
    background-image: -ms-linear-gradient(top, #3c8cba 0%, #3c8cba 100%);
    color: #fff;
-   } */
+   }
 
 button {
    float:right;
@@ -275,4 +275,4 @@ button:active {
    background: -o-linear-gradient(top, #3c8cba, #3c8cba);
    background-image: -ms-linear-gradient(top, #3c8cba 0%, #3c8cba 100%);
    color: #fff;
-   }
+   } */
