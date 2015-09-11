@@ -6,6 +6,7 @@
 <title>Christian Cheng</title>
 <link rel="stylesheet" type="text/css" href="/static/style.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,6 @@
  <div id="content">
  <h2><strong>P O R T F O L I O</strong></h2>
 <h3>Kenbot</h3>
-<br>
 <lp>Kenbot is a web application game that uses lists and a sorting algorithm to determine who the user is thinking of.
 </lp>
 <br>
@@ -29,6 +29,7 @@
 
  </div>
  
+ <br>
  <p> 
 <a href="mailto:christiancheng516@gmail.com"><img src="http://i.imgur.com/TMbwuvW.png" alt="Send me mail!" WIDTH=32 HEIGHT=32></a> 
 &nbsp;
@@ -42,5 +43,15 @@
 </div>
 
 </body>
+
+<script>
+$(document).ready(function(){
+	$("#fader").fadeIn(1200);
+	$("result").fadeIn(5000);
+	$("#toggle").click(function(){
+    		$("hidden").toggle();
+    	});
+});
+</script>
 
 </html>
