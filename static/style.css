@@ -49,7 +49,7 @@ result {
 	text-align:center;
 	}
 #content {
-	background-color: rgba(5,58,89,0.6);
+	background-color: rgba(5,58,89,0.9);
 	border-radius:5px;
 	padding:10px 20px;
 	text-align:center;
@@ -81,7 +81,7 @@ a:hover {
 	color: #3c8cba;
 }
 
-.button {
+/* .button {
    border: 0px solid #24a4c7;
    background: #27a4c7;
    background: -webkit-gradient(linear, left top, left bottom, from(#27a4c7), to(#27a4c7));
@@ -225,7 +225,7 @@ a:hover {
    background: -o-linear-gradient(top, #3c8cba, #3c8cba);
    background-image: -ms-linear-gradient(top, #3c8cba 0%, #3c8cba 100%);
    color: #fff;
-   }
+   } */
 
 button {
    float:right;
