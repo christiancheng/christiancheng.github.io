@@ -18,7 +18,7 @@ h2 {
 	color: rgb(36,164,199);
 	}
 h3 {
-	text-align:left;
+	text-align:center;
 	font-family: "Open Sans", sans-serif;
 	font-size:125%;
 	color: rgb(36,164,199);
@@ -29,7 +29,7 @@ p {
 	color: white;
 	}
 lp {
-	text-align:left;
+	text-align:center;
 	font-family: "Open Sans", sans-serif;
 	color: white;
 	}
