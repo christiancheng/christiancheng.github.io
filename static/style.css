@@ -141,7 +141,7 @@ a:hover {
    background-image: -ms-linear-gradient(top, #3c8cba 0%, #3c8cba 100%);
    color: #fff;
    }
-/* .button1 {
+.button1 {
    float:left;
    width:45%;
    border: 0px solid #24a4c7;
@@ -288,4 +288,4 @@ button:active {
    background: -o-linear-gradient(top, #3c8cba, #3c8cba);
    background-image: -ms-linear-gradient(top, #3c8cba 0%, #3c8cba 100%);
    color: #fff;
-   } */
+   } 
