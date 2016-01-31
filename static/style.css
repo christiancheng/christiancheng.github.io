@@ -311,19 +311,20 @@ display:inline-block;
 .nav li {
     float: center;
     display: inline;
-             background-color: #333;
+    background-color: #333;
+    padding: 12px 24px;
+
 }
 
 .nav a {
     display: inline-block;
-    margin: auto;
+    /*margin: auto;*/
     
     color: white;
     text-align: center;
     font-family: "Open Sans", sans-serif;
 	font-size:90%;
-    padding: 12px 24px;
-    text-decoration: none;
+        text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
