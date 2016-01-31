@@ -69,7 +69,8 @@ result {
 	text-align:center;
 	margin: auto;
 	width: 50%;
-	       max-height: 50%;
+height:auto;
+	       max-height: 70%;
 overflow-y: auto;
 	}
 /* .corner {
