@@ -291,16 +291,18 @@ button:active {
    }
 
 /* Navbar */
-.nav {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: center;
+    position: fixed;
     top: 10%;
     width: 70%;
     text-align:center;
+display: inline-block;
+
 }
 
 .nav li {
