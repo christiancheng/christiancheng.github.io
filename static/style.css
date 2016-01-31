@@ -333,11 +333,11 @@ margin: auto;
 /* Change the link color to #111 (black) on hover */
 .nav a:hover {
     /*background-color: rgba(2,101,139,0.6);*/
-    border: 5px solid rgba(2,101,139,0.6);
+    border: 1px solid rgba(2,101,139,0.6);
 
 }
 
 .active a {
     /*background-color: rgba(2,101,139,0.6);*/
-border: 5px solid rgba(2,101,139,0.6);
+border: 1px solid rgba(2,101,139,0.6);
 }
