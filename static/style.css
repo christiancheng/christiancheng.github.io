@@ -291,7 +291,7 @@ button:active {
    }
 
 /* Navbar */
-ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -300,16 +300,18 @@ ul {
     position: fixed;
     top: 20;
     width: 100%;
+    text-align:center;
 }
 
-li {
+.nav li {
     float: center;
+    display: inline;
 }
 
-li a {
-    display: block;
+.nav a {
+    display: inline-block;
     color: white;
-    text-align: center;
+    text-align: left;
     font-family: "Open Sans", sans-serif;
 	font-size:105%;
     padding: 14px 16px;
@@ -317,7 +319,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.nav a:hover {
     background-color: #111;
 }
 
