@@ -57,7 +57,8 @@ result {
 #header {
 /* 	background-color: rgba(36,164,199,0.2); */
 	border-radius:5px;
-	padding:20px;
+	padding-top:5px;
+	padding-bottom:20px;
 	text-align:center;
 	}
 #content {
@@ -297,7 +298,7 @@ button:active {
     padding: 0;
     overflow: hidden;
     position: fixed;
-    top: 10%;
+    top: 15%;
     width: 100%;
     text-align:center;
     display: inline-block;
