@@ -304,6 +304,10 @@ button:active {
     display: inline-block;
 }
 
+.nac ul {
+display:inline-block;
+}
+
 .nav li {
     float: center;
     display: inline;
