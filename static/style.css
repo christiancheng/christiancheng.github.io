@@ -298,7 +298,7 @@ button:active {
     overflow: hidden;
     position: fixed;
     top: 10%;
-    width: 70%;
+    width: 100%;
     text-align:center;
     display: inline-block;
 }
@@ -330,6 +330,6 @@ display:inline-block;
     background-color: #111;
 }
 
-.nav a .active {
+.nav li a .active {
     background-color: #4CAF50;
 }
