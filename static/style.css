@@ -301,8 +301,7 @@ button:active {
     top: 10%;
     width: 70%;
     text-align:center;
-/*display: inline-block;
-*/
+    display: inline-block;
 }
 
 .nav li {
@@ -311,7 +310,7 @@ button:active {
 }
 
 .nav a {
-    display: inline-block;
+   /* display: inline-block;*/
     color: white;
     text-align: left;
     font-family: "Open Sans", sans-serif;
