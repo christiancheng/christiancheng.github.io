@@ -319,7 +319,7 @@ margin: auto;
 .nav a {
     display: inline-block;
     margin: auto;
-    background-color: #333;
+    /*background-color: #333;*/
     padding: 8px 32px;
     color: white;
     text-align: center;
