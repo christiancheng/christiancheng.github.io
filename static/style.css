@@ -298,12 +298,12 @@ button:active {
     overflow: hidden;
     position: fixed;
     top: 10%;
-    width: 100%;
+    width: 70%;
     text-align:center;
     display: inline-block;
 }
 
-.nac ul {
+.nav ul {
 display:inline-block;
         list-style-type: none;
 }
@@ -330,6 +330,6 @@ display:inline-block;
     background-color: #111;
 }
 
-.nav ul li .active {
+.nav a .active {
     background-color: #4CAF50;
 }
