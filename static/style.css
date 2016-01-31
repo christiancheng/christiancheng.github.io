@@ -320,11 +320,11 @@ margin: auto;
     display: inline-block;
     margin: auto;
     /*background-color: #333;*/
-    padding: 8px 32px;
+    padding: 6px 32px;
            color: rgb(5,58,89);
     text-align: center;
     font-family: "Open Sans", sans-serif;
-	font-size:100%;
+	font-size:95%;
         text-decoration: none;
 }
 
