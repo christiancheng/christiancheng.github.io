@@ -299,7 +299,7 @@ button:active {
     background-color: #333;
     position: fixed;
     top: 10%;
-    width: 100%;
+    width: 70%;
     text-align:center;
 }
 
@@ -314,7 +314,7 @@ button:active {
     text-align: left;
     font-family: "Open Sans", sans-serif;
 	font-size:90%;
-    padding: 14px 16px;
+    padding: 10% 20%;
     text-decoration: none;
 }
 
