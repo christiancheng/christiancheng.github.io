@@ -294,6 +294,8 @@ button:active {
 .nav {
     list-style-type: none;
     margin: auto;
+            margin-left: auto;
+            margin-right:auto;
     padding: 0;
     overflow: hidden;
     background-color: #333;
