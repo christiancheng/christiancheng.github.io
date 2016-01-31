@@ -298,7 +298,7 @@ button:active {
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    top: 20;
+    top: 10%;
     width: 100%;
     text-align:center;
 }
@@ -313,7 +313,7 @@ button:active {
     color: white;
     text-align: left;
     font-family: "Open Sans", sans-serif;
-	font-size:105%;
+	font-size:90%;
     padding: 14px 16px;
     text-decoration: none;
 }
