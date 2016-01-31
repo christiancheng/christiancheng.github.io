@@ -1,6 +1,7 @@
 body {
 	background-image:url("c12.jpg");
 	background-color:rgba(5,58,89);
+overflow:hidden;
 	}
 #fader {
 	display: none;
