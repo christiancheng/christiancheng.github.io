@@ -293,7 +293,7 @@ button:active {
 /* Navbar */
 .nav {
     list-style-type: none;
-    margin: auto;
+    margin: 0 auto;
             margin-left: auto;
             margin-right:auto;
     padding: 0;
