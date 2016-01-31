@@ -321,7 +321,7 @@ margin: auto;
     display: inline-block;
     margin: auto;
     /*background-color: #333;*/
-    padding: 6px 32px;
+    padding: 6px 24px;
            color: rgb(5,58,89);
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -339,5 +339,6 @@ margin: auto;
 
 .active a {
     /*background-color: rgba(2,101,139,0.6);*/
+    border-top: 2px solid rgba(2,101,139,0.6);
 border-bottom: 2px solid rgba(2,101,139,0.6);
 }
