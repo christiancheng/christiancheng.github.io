@@ -291,7 +291,7 @@ button:active {
    }
 
 /* Navbar */
-.nav ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -310,7 +310,7 @@ button:active {
 }
 
 .nav a {
-   /* display: inline-block;*/
+    display: inline-block;
     color: white;
     text-align: left;
     font-family: "Open Sans", sans-serif;
