@@ -319,7 +319,7 @@ display:inline-block;
 .nav a {
     display: inline-block;
     color: white;
-    text-align: left;
+    text-align: center;
     font-family: "Open Sans", sans-serif;
 	font-size:90%;
     padding: 12px 24px;
