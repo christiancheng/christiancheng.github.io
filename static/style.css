@@ -306,6 +306,7 @@ button:active {
 
 .nac ul {
 display:inline-block;
+        list-style-type: none;
 }
 
 .nav li {
