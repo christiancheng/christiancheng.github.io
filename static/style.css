@@ -61,13 +61,13 @@ result {
 	/*padding-top:1vh;
 	padding-bottom:5vh; */
 	text-align:center;
+	margin-bottom:5%;
 	}
 #navbar {
     /*padding-top: 5vh;
     padding-bottom:5vh;*/
     text-align:center;
-margin: auto;
-float: center;
+margin-bottom: 5%;
 height: 10%;
 }
 #content {
@@ -308,7 +308,7 @@ button:active {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     top: 12vh;
     width: 100%;
     text-align:center;
