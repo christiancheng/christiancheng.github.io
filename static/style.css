@@ -59,7 +59,7 @@ result {
 /* 	background-color: rgba(36,164,199,0.2); */
 	border-radius:5px;
 	padding-top:1vh;
-	padding-bottom:5vh; /* change to vh */
+	padding-bottom:5vh; 
 	text-align:center;
 	}
 #navbar {
@@ -67,6 +67,8 @@ result {
     padding-bottom:5vh;
     text-align:center;
 margin: auto;
+float: center;
+height: 10%;
 }
 #content {
 	/*background-color: rgba(5,58,89,0.6);*/
