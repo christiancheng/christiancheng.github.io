@@ -300,7 +300,7 @@ button:active {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     top: 12vh;
     width: 100%;
     text-align:center;
