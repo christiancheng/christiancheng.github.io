@@ -308,7 +308,7 @@ button:active {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     top: 12vh;
     width: 100%;
     text-align:center;
@@ -316,7 +316,7 @@ button:active {
 }
 
 .nav ul {
-display:inline-block;
+display:inline;
         list-style-type: none;
 }
 
