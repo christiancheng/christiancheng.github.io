@@ -61,11 +61,13 @@ result {
 	padding-top:1vh;
 	padding-bottom:5vh; /* change to vh */
 	text-align:center;
+	max-height: 10vh;
 	}
 #navbar {
     padding-top: 1vh;
     padding-bottom:1vh;
     text-align:center;
+    max-height: 10vh;
 }
 #content {
 	/*background-color: rgba(5,58,89,0.6);*/
