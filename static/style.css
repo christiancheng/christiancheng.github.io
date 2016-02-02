@@ -310,7 +310,7 @@ button:active {
     padding: 0;
     overflow: hidden;
     position: fixed;
-    top: 10px;
+    top: 50px;
     width: 100%;
     text-align:center;
     display: inline-block;
