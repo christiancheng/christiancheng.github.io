@@ -12,9 +12,13 @@ width: 60%
 	max-height: 75vh;
     overflow-y: auto;
 	}
+header {
+height: 150px;
+position: fixed;
+          max-width: 800px;
+}
 
 body {
-
 overflow: hidden;
 }
 
