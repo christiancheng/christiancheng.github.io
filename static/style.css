@@ -29,13 +29,15 @@ p {
 	}
 
 .nav {
+    border:1px solid #ccc;
+    border-width:1px 0;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     position: fixed;
     top: 80px;
-width: 800px;
+width: 100%;
     text-align:center;
     display: inline-block;
 }
@@ -47,7 +49,7 @@ list-style-type: none;
 
 .nav li {
 float: center;
-display: inline-block;
+display: inline;
 margin: auto;
 }
 
