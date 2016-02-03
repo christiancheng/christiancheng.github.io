@@ -17,6 +17,9 @@ height: 0px;
 display: none;
 }
 
+#center {
+    text-align:center;
+}
 
 body {
 overflow: hidden;
