@@ -5,10 +5,10 @@ height: 150px;
 
 #content {
 	border-radius:5px;
-	width: 60%;
+	width: 50%;
 	max-height: 75vh;
     overflow-y: auto;
-padding: 0% 20% 0% 20%
+padding: 0% 25% 0% 25%
 	}
 
 
@@ -19,6 +19,7 @@ overflow: hidden;
 
 h1 { 
     font-family: "Open Sans", sans-serif;
+    text-align:center;
 	font-size:200%;
 }
 
