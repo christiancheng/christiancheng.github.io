@@ -1,3 +1,18 @@
+#header {
+	border-radius:5px;
+	text-align:left;
+width: 60%
+	}
+
+#content {
+	border-radius:5px;
+	padding:10px 20px;
+	text-align:center;
+	width: 55%;
+	max-height: 75vh;
+    overflow-y: auto;
+	}
+
 body {
 
 overflow: hidden;
