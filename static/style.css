@@ -3,6 +3,10 @@ height: 150px;
          text-align:center;
 	}
 
+#navbar {
+    text-align:center;
+}
+
 #content {
 	border-radius:5px;
 	max-height: 75vh;
