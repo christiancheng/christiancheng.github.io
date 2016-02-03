@@ -12,8 +12,8 @@ height: 150px;
 
 body {
 overflow: hidden;
-         padding-left: 40px;
-         padding-right: 40px;
+         padding-left: 20%;
+         padding-right: 20%;
          max-width: 800px;
 
 }
