@@ -27,6 +27,7 @@ rel='stylesheet' type='text/css'>
 
 
 <div id ="content">
+<div id ="fader">
 <p> content goes here content goes herecontent goes herecontent goes
 herecontent goes herecontent goes herecontent goes herecontent goes herecontent
 goes herecontent goes herecontent goes herecontent goes herecontent goes
@@ -44,7 +45,18 @@ content goes herecontent goes herecontent goes herecontent goes here
 <br><br>
 content goes herecontent goes here</p>
 </div>
+</div>
 
 </body>
+
+<script>
+$(document).ready(function(){
+	$("#fader").fadeIn(1200);
+	$("result").fadeIn(5000);
+	$("#toggle").click(function(){
+    		$("hidden").toggle();
+    	});
+});
+</script>
 
 </html>
