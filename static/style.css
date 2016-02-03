@@ -1,7 +1,8 @@
 #header {
 height: 150px;
 position: fixed;
-          max-width: 800px;	
+          max-width: 400px;	
+padding: 80px 160px;
 	}
 
 #content {
