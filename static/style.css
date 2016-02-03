@@ -15,11 +15,12 @@ height: 0px;
 
 #footer {
     text-align:center;
+    height: 4em;
+display: inline-block;
 }
 
 #fader {
 display: none;
-height: 4em;
 }
 
 #center {
