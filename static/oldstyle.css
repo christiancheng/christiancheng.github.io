@@ -63,14 +63,7 @@ result {
 	text-align:center;
 	margin-bottom:5%;
 	}
-#navbar {
-    /*padding-top: 5vh;
-    padding-bottom:5vh;*/
-    text-align:center;
-/*margin-bottom: 5%; */
-padding: 5px 20px;
-position: fixed;
-}
+
 #content {
 	/*background-color: rgba(5,58,89,0.6);*/
 	background-color: rgba(2,101,139,0.6);
