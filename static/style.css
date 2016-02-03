@@ -13,6 +13,10 @@ height: 0px;
     overflow-y: auto;
 }
 
+#footer {
+    text-align:center;
+}
+
 #fader {
 display: none;
 }
@@ -52,6 +56,10 @@ h3 {
 	}
 p {
 	font-family: "Open Sans", sans-serif;
+	}
+psmall {
+	font-family: "Open Sans", sans-serif;
+	font-size:80%;
 	}
 pcenter {
     font-family: "Open Sans", sans-serif;
