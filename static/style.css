@@ -52,8 +52,7 @@ list-style-type: none;
 
 .nav li {
 float: center;
-display: inline;
-margin: auto;
+display: inline-block;
 }
 
 .nav a {
