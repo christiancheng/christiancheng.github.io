@@ -30,7 +30,7 @@ p {
 
 .nav {
     list-style-type: none;
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     position: fixed;
@@ -46,7 +46,6 @@ list-style-type: none;
 }
 
 .nav li {
-float: center;
 display: inline-block;
 margin: auto;
 }
