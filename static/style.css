@@ -39,7 +39,7 @@ p {
   margin: 0 auto;
 padding: 0;
     overflow: hidden;
-    position: fixed;
+   /* position: fixed;*/
     top: 80px;
     text-align:center;
     display: inline-block;
