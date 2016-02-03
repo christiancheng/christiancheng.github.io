@@ -12,9 +12,10 @@ height: 150px;
 
 body {
 overflow: hidden;
-         margin-left: auto;
-         margin-right:auto;
+         padding-left: 40px;
+         padding-right: 40px;
          max-width: 800px;
+
 }
 
 h1 { 
@@ -29,11 +30,12 @@ p {
 
 .nav {
     list-style-type: none;
-    margin: 0 auto;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     position: fixed;
     top: 80px;
+width: 100%;
     text-align:center;
     display: inline-block;
 }
