@@ -2,7 +2,7 @@
 height: 150px;
 position: fixed;
           max-width: 400px;	
-padding: 80px 160px;
+padding: 0px 20px;
 	}
 
 #content {
@@ -17,6 +17,7 @@ padding: 80px 160px;
 
 body {
 overflow: hidden;
+padding: 120px 20px;
 }
 
 h1 { 
