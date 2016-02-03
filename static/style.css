@@ -23,9 +23,8 @@ display: none;
 
 body {
 overflow: hidden;
-         padding-left: 10%;
-         padding-right: 10%;
-         max-width: 800px;
+margin: 0 auto;
+          max-width: 800px;
 
 }
 
