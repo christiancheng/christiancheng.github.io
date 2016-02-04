@@ -52,7 +52,7 @@ h2 {
 	font-size:150%;
 	color: rgb(5,58,89);
 	}
-h3 {
+s3 {
 	font-family: "Open Sans", sans-serif;
 	font-size:120%;
 	color: rgb(5,58,89);
@@ -72,6 +72,12 @@ imgblock {
 display: inline-block;
 float:left;
 padding-right: 20px;
+}
+imgright {
+display: inline-block;
+float: right;
+       padding-left: 2px;
+       padding-right: 2px;
 }
 
 a:link {
