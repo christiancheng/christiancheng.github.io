@@ -159,7 +159,7 @@ border-bottom: 2px solid rgb(2,101,139);
     display:inline;
     position:relative;
     top:0px;
-    -webkit-animation:fade-in 1s infinite;
+    -webkit-animation:fade-in 5s infinite;
 
 }
 .text-animated-two{
@@ -167,7 +167,7 @@ border-bottom: 2px solid rgb(2,101,139);
     display:inline;
     position:relative;
     margin-left:-56px;
-    -webkit-animation:fade-in 1s infinite;
+    -webkit-animation:fade-in 5s infinite;
     -webkit-animation-delay:0.5s;
 }
 
