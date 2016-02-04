@@ -41,12 +41,10 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script
 </p>
 <br><br>
 <h2>
-<span class="text">Hello! I'm Christian, and I'm a &nbsp;</span>
-    <div class="animatedtext">
-        <div class="text-animated-one">software developer.</div>    
-        <div class="text-animated-two">student.</div>
-    </div>
+Hello! I'm Christian, and I'm a &nbsp;
 </h2>
+<h2 class ="phrases">software developer. </h2>   
+<h2 class="phrases">student.</h2>
 <a href="http://linkedin.com/in/christiancheng" target="_blank"><i class="fa
 fa-linkedin-square fa-2x"></i></a>
 &nbsp;
@@ -70,6 +68,23 @@ $(document).ready(function(){
     		$("hidden").toggle();
     	});
 });
+
+(function() {
+
+    var phrases = $(".phrases");
+    var quoteIndex = -1;
+    
+    function showNextQuote() {
+        ++quoteIndex;
+        phrases.eq(quoteIndex % phrases.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextQuote);
+    }
+    
+    showNextQuote();
+    
+})();
 </script>
 
 </html>
