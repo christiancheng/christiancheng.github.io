@@ -71,6 +71,7 @@ pcenter {
 }
 imgblock {
 display: inline-block;
+float:left;
 }
 
 a:link {
