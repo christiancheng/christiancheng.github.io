@@ -2,71 +2,68 @@
 <html>
 
 <head>
-<link rel='shortcut icon' type='image/x-icon' href="favicon.ico" />
 <title>Christian Cheng</title>
 <link rel="stylesheet" type="text/css" href="/static/style.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300'
 rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/fa/css/font-awesome.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
+
+<div id="header">
+<h1><strong>Christian Cheng</strong></h1>
+</div>
 
 
 
 <body>
 
+<br><br><br>
+<div id="navbar">
 <ul class = "nav">
 <li class="active"><a href="index">Home</a></li>  
 <li><a href="projects">Projects</a></li>
-  <li><a href="resume">Resume</a></li>
+<li><a href="resume">Resume</a></li>
 </ul>
-
-<div id="header">
-<h1><strong>C H R I S T I A N &nbsp; C H E N G</strong></h1>
 </div>
- <br>
 
- <div id="content">
- <h2><strong>Hello! I'm Christian, and I'm a software developer.</strong></h2>
-<p>I'm currently studying Computer Science at UC San Diego. 
-<br>
-I know Java, Python, HTML, CSS, and jQuery.
-<br><br>
-Feel free to take a look at my projects!
-</p>
-<br>
-<!-- <form action="/projects"><input class="button" type="submit"
-value="Projects"></form>
-<form action="/about"><input class="button" type="submit"
-value="About Me"></form> -->
 
-<form action="/projects"><input class="button1" type="submit" value="Projects"></form>
-<form action="/about"><input class="button2" type="submit" value="About Me"></form>
-<!-- <minor><a href="mailto:christiancheng516@gmail.com">Contact me</a> if you
-have any questions, advice, or opportunities :)
-</minor> -->
-<br><br>
-<p> 
-<a href="mailto:christiancheng516@gmail.com"><img
-src="http://i.imgur.com/TMbwuvW.png" alt="Send me mail!" WIDTH=32
-HEIGHT=32></a> 
-&nbsp;
-<a href="http://github.com/christiancheng" target="_blank"><img
-src="http://i.imgur.com/K6lAOza.png" alt="GitHub Profile" WIDTH=32
-HEIGHT=32></a>
-&nbsp;
-<a href="http://linkedin.com/in/christiancheng" target="_blank"><img
-src="http://i.imgur.com/pUweLBN.png" alt="LinkedIn Profile" WIDTH=32
-HEIGHT=32></a>
-<br><br>
-<minor>This site is still undergoing construction.
+<div id ="content">
+<div id ="fader">
+<p>
 <br>
-&copy; 2016 Christian Cheng</minor>
 </p>
- </div>
- 
-<div class="corner">
-<div class="bg"></div>
+<div id="center">
+<p>
+
+
+</p>
+<br><br>
+<h2>Hello! I'm Christian, and I'm a software developer.</h2>
+<a href="http://linkedin.com/in/christiancheng" target="_blank"><i class="fa
+fa-linkedin-square fa-2x"></i></a>
+&nbsp;
+
+<a href="http://github.com/christiancheng" target="_blank"><i class="fa
+fa-github fa-2x"></i></a>
+
 </div>
+</div>
+</div>
+
 
 </body>
 
+<script>
+$(document).ready(function(){
+	$("#fader").fadeIn(1200);
+	$("result").fadeIn(5000);
+	$("#toggle").click(function(){
+    		$("hidden").toggle();
+    	});
+});
+</script>
+
 </html>
+
