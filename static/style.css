@@ -70,6 +70,16 @@ pcenter {
     text-align:center;
 }
 
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: #3c8cba;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
