@@ -40,11 +40,11 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script
 
 </p>
 <br><br>
-<h2>
+<s2>
 Hello! I'm Christian, and I'm a &nbsp;
-</h2>
-<h2 class ="phrases">software developer. </h2>   
-<h2 class="phrases">student.</h2>
+</s2>
+<s2 class ="phrases">software developer. </s2>   
+<s2 class="phrases">student.</s2>
 <a href="http://linkedin.com/in/christiancheng" target="_blank"><i class="fa
 fa-linkedin-square fa-2x"></i></a>
 &nbsp;
@@ -77,9 +77,9 @@ $(document).ready(function(){
     function showNextQuote() {
         ++quoteIndex;
         phrases.eq(quoteIndex % phrases.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showNextQuote);
+            .fadeIn(1700)
+            .delay(1700)
+            .fadeOut(1700, showNextQuote);
     }
     
     showNextQuote();
