@@ -72,6 +72,7 @@ pcenter {
 imgblock {
 display: inline-block;
 float:left;
+padding: 5px;
 }
 
 a:link {
