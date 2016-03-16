@@ -136,6 +136,10 @@ pcenter {
     text-align:center;
 }
 
+pcolor {
+    color: rgb(5,58,89);
+}
+
 imgblock {
     display: inline-block;
     float: left;
