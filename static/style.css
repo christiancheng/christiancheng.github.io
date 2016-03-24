@@ -31,7 +31,7 @@
     top: 80px;
     text-align:center;
     display: inline-block;
-    width: 400px;
+    width: 440px;
 }
 	
 .nav ul {
@@ -54,7 +54,7 @@
     font-size:95%;
     font-weight:bold;
     text-decoration: none;
-    width:75px;
+    width:80px;
 }
 
 .nav a:hover {
