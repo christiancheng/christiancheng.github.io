@@ -116,13 +116,19 @@ a:hover {
 
 s2 {
 	font-family: "Open Sans", sans-serif;
-	font-size:95%;
+	font-size:105%;
 	color: rgb(5,58,89);
 }
 
 s3 {
 	font-family: "Open Sans", sans-serif;
 	font-size:120%;
+	color: rgb(5,58,89);
+}
+
+s4 {
+	font-family: "Open Sans", sans-serif;
+	font-size:150%;
 	color: rgb(5,58,89);
 }
 
