@@ -162,6 +162,8 @@ imgblockright {
 imgright {
     display: inline-block;
     float: right;
+    font-family: "Open Sans", sans-serif;
+	font-size: 90%;
 }
 
 ::-webkit-scrollbar { 
