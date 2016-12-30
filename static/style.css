@@ -116,7 +116,7 @@ a:hover {
 
 s2 {
 	font-family: "Open Sans", sans-serif;
-	font-size:108%;
+	font-size:90%;
 	color: rgb(5,58,89);
 }
 
@@ -194,19 +194,3 @@ imgcenter {
     display: none; 
 }
 
-#cd-timeline {
-  position: relative;
-  padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-#cd-timeline::before {
-  /* this is the vertical line */
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 18px;
-  height: 100%;
-  width: 4px;
-  background: #d7e4ed;
-}
