@@ -133,6 +133,11 @@ s5 {
 	color: rgb(5,58,89);
 }
 
+ul {
+  font-family: "Open Sans", sans-serif;
+	font-size:100%;
+}
+
 
 psmall {
 	font-family: "Open Sans", sans-serif;
