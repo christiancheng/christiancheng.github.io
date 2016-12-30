@@ -179,6 +179,10 @@ imgright {
 	font-size: 90%;
 }
 
+imgleft {
+  display: inline-block;
+}
+
 imgcenter {
   text-align: center;
 }
