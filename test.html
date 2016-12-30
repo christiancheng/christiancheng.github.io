@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Christian Cheng</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300'
+    rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/fa/css/font-awesome.min.css">
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+</head>
+
+<div id="header">
+    <h1><strong>Christian Cheng</strong></h1>
+</div>
+
+<body>
+
+    <br><br><br>
+    <div id="navbar">
+        <ul class = "nav">
+            <li class="active"><a href="index">Home</a></li>  
+            <li><a href="projects">Projects</a></li>
+            <li><a href="experience">Experience</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+    </div>
+
+    <div id ="content">
+        <div id ="fader">
+            <br><br><br>
+            <s4> Hello! I'm Christian, and I'm a </s4>
+            <s4 class ="phrases">software developer.</s4>   
+            <s4 class="phrases">student.</s4>
+            <s4 class="phrases">tech enthusiast.</s4>
+            <s4 class="phrases">thinker.</s4>
+            <s4 class="phrases">programmer.</s4>
+            <imgright>
+                <a href="http://linkedin.com/in/christiancheng"
+                target="_blank">
+                    <i class="fa fa-linkedin-square fa-2x"></i>
+                </a> &nbsp;
+                <a href="http://github.com/christiancheng" target="_blank">
+                    <i class="fa fa-github fa-2x"></i>
+                </a> &nbsp;
+                <a href="mailto:ccheng@ucsd.edu">
+                    <i class="fa fa-envelope fa-2x"></i>
+                </a>
+            </imgright>
+
+        </div>
+    </div>
+
+</body>
+
+<script>
+$(document).ready(function(){
+	$("#fader").fadeIn(1200);
+	$("result").fadeIn(5000);
+	$("#toggle").click(function(){
+    		$("hidden").toggle();
+    	});
+});
+
+(function() {
+
+    var phrases = $(".phrases");
+    var quoteIndex = -1;
+    
+    function showNextQuote() {
+        ++quoteIndex;
+        phrases.eq(quoteIndex % phrases.length)
+            .fadeIn(1200)
+            .delay(1000)
+            .fadeOut(1200, showNextQuote);
+    }
+    
+    showNextQuote();
+    
+})();
+</script>
+
+</html>
+
