@@ -190,6 +190,15 @@ imgcenter {
   text-align: center;
 }
 
+timediv {
+  display: inline-block;
+  float: left;
+}
+
+descdiv {
+  display: inline-block;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
