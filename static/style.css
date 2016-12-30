@@ -181,6 +181,7 @@ imgright {
 
 imgleft {
   display: inline-block;
+  float: left;
 }
 
 imgcenter {
@@ -192,8 +193,9 @@ timediv {
   float: left;
 }
 
-descdiv {
+descright {
   display: inline-block;
+  float: right;
 }
 
 ::-webkit-scrollbar { 
