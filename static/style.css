@@ -195,7 +195,6 @@ timediv {
 
 descright {
   display: inline-block;
-  float: right;
 }
 
 ::-webkit-scrollbar { 
