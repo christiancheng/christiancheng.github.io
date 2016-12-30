@@ -181,6 +181,11 @@ imgright {
 	font-size: 90%;
 }
 
+imgcenter {
+  display: inline-block;
+    float: center;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
