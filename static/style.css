@@ -144,6 +144,14 @@ psmall {
 	font-size:80%;
 }
 
+pright {
+  display: inline-block;
+  float: right;
+	font-family: "Open Sans", sans-serif;
+	font-size:90%;
+}
+
+
 pcenter {
     font-family: "Open Sans", sans-serif;
     text-align:center;
