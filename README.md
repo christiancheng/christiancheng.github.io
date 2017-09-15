@@ -1,6 +1,6 @@
 # Personal Website
 
-Visit my website at http://christiancheng.me
+Visit my website at http://christiancheng.com
 
 Written using: HTML5, CSS, jQuery
 
