@@ -160,10 +160,6 @@ pcolor {
     color: #3c8cba;
 }
 
-imgfull {
-  width: 100vw;
-}
-
 imgblock {
     display: inline-block;
     float: left;
