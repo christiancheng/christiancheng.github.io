@@ -198,6 +198,11 @@ descright {
   padding-left: 10px;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
