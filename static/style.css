@@ -25,13 +25,30 @@
     display: none;
 }
 
+#fader2 {
+  display: none;
+}
+
+#fader3 {
+  display: none;
+}
+
+#fader4 {
+  display: none;
+}
+
+#fader5 {
+  display: none;
+}
+
+
 #center {
     text-align: center;
 }
 
 .hideme
 {
-    opacity:0;
+  display: none;
 }
 
 .nav {
@@ -123,6 +140,13 @@ a:hover {
     color: #3c8cba;
 }
 
+s1 {
+    font-family: "Open Sans", sans-serif;
+    font-size:90%;
+    color: rgb(5,58,89);
+}
+
+
 s2 {
     font-family: "Open Sans", sans-serif;
     font-size:110%;
@@ -131,7 +155,7 @@ s2 {
 
 s3 {
     font-family: "Open Sans", sans-serif;
-    font-size:100%;
+    font-size:130%;
     color: rgb(5,58,89);
 }
 
@@ -193,8 +217,9 @@ imgleft {
   float: left;
 }
 
-imgcenter {
-  text-align: center;
+.center {
+  display: block;
+  margin: auto;
 }
 
 timediv {
@@ -208,7 +233,16 @@ descright {
 }
 
 table {
-  border-spacing: 30px;
+  border-spacing: 0 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 ::-webkit-scrollbar { 
