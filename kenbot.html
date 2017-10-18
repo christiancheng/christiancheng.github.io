@@ -53,42 +53,56 @@
     <div id="fader2">
     <div id ="content2">
 
+        <s2>About Kenbot</s2>
+        <hr/>
         <p>
             Kenbot is a game that guesses who the user is thinking of based on
-            their responses to a series of questions. I worked on this project with a partner, Josh Ramos, and it is very special to me because it was my first coding project ever!
+            their responses to a series of questions. This project is very special to me because it was my first coding project, and I worked on it during the summer before my freshman year at UC San Diego. My partner and I wrote and tested all the code in less than two weeks, with a limited knowledge of Python, HTML, CSS, jQuery, and programming concepts as a whole. If you want to try the game out without reading this entire writeup, <a href="https://spiskenbot.herokuapp.com" target="_blank">click here!</a>
+        </p>
+        <br>
 
             <center>
-
-            <img src="images/kenbot.png" WIDTH=343 HEIGHT=182>
-            <img src="images/kenbot4.png" WIDTH=343 HEIGHT=182>
-            <img src="images/kenbot2.png" WIDTH=343 HEIGHT=182>
-            <img src="images/kenbot3.png" WIDTH=343 HEIGHT=182>
-
+            <img src="images/kenbot.png" WIDTH=686 HEIGHT=364>
         </center>
-            
-            
-            <a href="/kenbot" target="_blank"></a>
-            <p>
-            <imgblock>
-                    <a href="http://spiskenbot.herokuapp.com" target="_blank">
-                        <img src="images/kenbot.png" WIDTH=286 HEIGHT=152>
-                    </a>
-            </imgblock>
-             Uses a matching algorithm based
-            in Python and hosted online as a web application using Flask.  
-            <br><br>
-            <imgblock>
-                    <a href="http://spiskenbot.herokuapp.com" target="_blank">
-                        <img src="images/kenbot.png" WIDTH=286 HEIGHT=152>
-                    </a>
-            </imgblock>
-             Uses a matching algorithm based
-            in Python and hosted online as a web application using Flask.  
-            <br><br>
-            
-            </p>
+        <br><br>
 
+        <s2>Technologies Used</s2>
+        <hr/>
+        <p>
+            Frontend: HTML, CSS, jQuery | Backend: Python | Hosting: Heroku, Flask
+            <br><br>
+            As a team, we mostly split up the work between front-end and back-end, but collaborated on both ends to develop Kenbot together. I was responsible for most of the front-end and design work on the application. We chose to use Python to implement the back-end because that was the (only) language we were most familiar with! Additionally, I had some experience in making Neopets pages with HTML and CSS while growing up, so I was able to throw together a (hopefully) aesthetically pleasing template for the game. The most challenging technology that I used was jQuery. We decided to focus on the user experience, and that we wanted the website to have smooth animations, so figuring out how to make the pages fade-in and how to properly time the transitions was a fun challenge. We used Flask to host Kenbot as an application on Heroku, so it's open to the public to play around with!
+        </p>
 
+        <br>
+        <center>
+            <img src="images/kenbot4.png" WIDTH=343 HEIGHT=182>
+            &nbsp; &nbsp;
+            <img src="images/kenbot2.png" WIDTH=343 HEIGHT=182>
+        </center>
+        <br><br>
+
+        <s2>Process</s2>
+        <hr/>
+        <p>
+            In order to create the application, we had to survey students so that we could use them as options in the game. After conducting a survey of student attributes, we created a spreadsheet that allowed each student to have a unique combination of answers to the ten questions we chose. We used Python to parse through this CSV data, and also to match players' answers to the correct person that they were thinking of. When the program is confident that it has identified the right answer, it returns that answer to the player and outputs it on the screen!
+        </p>
+
+        <br>
+        <center>
+            <img src="images/kenbot3.png" WIDTH=686 HEIGHT=364>
+        </center>
+        <br>
+
+        <s2>Takeaways</s2>
+        <hr/>
+        <p>
+            The key takeaway I had from working on Kenbot was that I could  create anything, as long as I put in the work to learn how to do it. Coming into this project, I had basically no programming experience. It took countless hours of frustration, dozens of HTML/CSS tutorials, and hundreds of Stack Overflow queries for us to produce Kenbot. However, creating Kenbot helped us start our CS careers with the understanding that anything is possible, if you work hard enough and use your resources wisely. 
+            <br><br>
+            Thanks for reading! If you enjoyed this writeup, make sure to <a href="https://spiskenbot.herokuapp.com" target="_blank">check out Kenbot by clicking here!</a>
+        </p>
+        <br><br>
+            
             
         </div>
 
