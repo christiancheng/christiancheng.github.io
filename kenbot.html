@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Christian Cheng</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300'
+    rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-101006282-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<div id="header">
+    <h1><a href="index.html">Christian Cheng</a></h1>
+</div>
+
+<body>
+
+    <br><br><br>
+    <div id="navbar">
+        <ul class = "nav">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="ChristianChengResume.pdf"
+                target="_blank">Resume</a></li>
+        </ul>
+
+        <br><br>
+        <div id="fader">
+
+        <s4 align="left">Kenbot</s4> &nbsp;
+
+        <a href="https://spiskenbot.herokuapp.com" target="_blank"><i
+            class="fa fa-external-link fa-lg fa-fw"></i></a>
+            <a href="https://github.com/christiancheng/Kenbot"
+            target="_blank"><i class="fa fa-github fa-lg fa-fw"></i></a>
+            <hr/>
+        </div>
+    </div>
+
+    <div id="fader2">
+    <div id ="content2">
+
+        <p>
+            Kenbot is a game that guesses who the user is thinking of based on
+            their responses to a series of questions. I worked on this project with a partner, Josh Ramos, and it is very special to me because it was my first coding project ever!
+
+            <center>
+
+            <img src="images/kenbot.png" WIDTH=343 HEIGHT=182>
+            <img src="images/kenbot4.png" WIDTH=343 HEIGHT=182>
+            <img src="images/kenbot2.png" WIDTH=343 HEIGHT=182>
+            <img src="images/kenbot3.png" WIDTH=343 HEIGHT=182>
+
+        </center>
+            
+            
+            <a href="/kenbot" target="_blank"></a>
+            <p>
+            <imgblock>
+                    <a href="http://spiskenbot.herokuapp.com" target="_blank">
+                        <img src="images/kenbot.png" WIDTH=286 HEIGHT=152>
+                    </a>
+            </imgblock>
+             Uses a matching algorithm based
+            in Python and hosted online as a web application using Flask.  
+            <br><br>
+            <imgblock>
+                    <a href="http://spiskenbot.herokuapp.com" target="_blank">
+                        <img src="images/kenbot.png" WIDTH=286 HEIGHT=152>
+                    </a>
+            </imgblock>
+             Uses a matching algorithm based
+            in Python and hosted online as a web application using Flask.  
+            <br><br>
+            
+            </p>
+
+
+            
+        </div>
+
+        </div>
+    </p>
+</div>
+</body>
+
+<div id="fader3">
+<div id = "footer">
+<a href="http://linkedin.com/in/christiancheng"
+                target="_blank">
+                    <i class="fa fa-linkedin-square fa-lg"></i>
+                </a> &nbsp; &nbsp;
+                <a href="http://github.com/christiancheng" target="_blank">
+                    <i class="fa fa-github fa-lg"></i>
+                </a> &nbsp; &nbsp;
+                <a href="mailto:ccheng@ucsd.edu">
+                    <i class="fa fa-envelope fa-lg"></i>
+                </a>
+</div>
+</div>
+
+
+<script>
+$(document).ready(function(){
+    window.setTimeout(function (){ $("#fader").fadeIn(400); }, 200);
+    window.setTimeout(function (){ $("#fader2").fadeIn(800); }, 600);
+    window.setTimeout(function (){ $("#fader3").fadeIn(800); }, 1200);
+    window.setTimeout(function (){ $("#fader4").fadeIn(800); }, 3200);
+    window.setTimeout(function (){ $("#fader5").fadeIn(800); }, 4000);
+    
+    $("result").fadeIn(5000);
+    $("#toggle").click(function(){
+            $("hidden").toggle();
+        });
+});
+
+(function() {
+
+    var phrases = $(".phrases");
+    var quoteIndex = -1;
+    
+    function showNextQuote() {
+        ++quoteIndex;
+        phrases.eq(quoteIndex % phrases.length)
+            .fadeIn(1200)
+            .delay(1000)
+            .fadeOut(1200, showNextQuote);
+    }
+    
+    showNextQuote();
+    
+})();
+</script>
+
+  <script>
+$(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+</script>
+
+</html>
+
