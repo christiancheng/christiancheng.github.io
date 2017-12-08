@@ -39,7 +39,7 @@
     </div>
 
     <div id ="content">
-
+        <div id ="fader">
             <br><br><br>
             <s4> Hello! I'm Christian, and I'm a </s4>
             <s4 class ="phrases">software developer.</s4>   
@@ -69,6 +69,7 @@
             <br><br><br>
 
             <div id="about"></div>
+            <div id="fader2">
             <p>
             <imgblockright>
                 <img src="images/profile.png" WIDTH=160 HEIGHT=160>
@@ -88,11 +89,11 @@
             href="http://github.com/christiancheng"
             target="_blank"><pcolor>Github profile!</pcolor></a>
             </p>
-
+        </div>
 
             <br><br><br>
             
-
+            <div id="fader3">
             <div id="experience">
             <s4>Work Experience</s4>
             <hr/>
@@ -115,7 +116,7 @@
                 <tr>
                     <td colspan="2">
                     <p>
-                        I'm currently interning on Teradata's New Product Introduction Team, working on several different projects. I updated and refactored StressAppTest, a tool that is used to stress test the memory and CPU components of servers. I'm also working on a server update tool that allows engineers to update the BIOS firmware of multiple servers in the same system at once. I also created an Agile PLM process extension that helps employees track server parts, reducing manual tracking time by 97% and saving 8 hours of work per week. Throughout my internship, I've gained experience in Java, C++, SLES, Agile PLM SDK, RPM constructions, various Intel BIOS tools, and Bash shell scripting.
+                        I'm currently interning on Teradata's New Product Introduction Team, working on several different projects. I updated and refactored StressAppTest, a tool that is used to stress test the memory and CPU components of servers. I'm also working on a server update tool that allows engineers to update the BIOS firmware of multiple servers in the same system at once. Throughout my internship, I've gained experience in Java, C++, SLES, Agile PLM SDK, RPM constructions, various Intel BIOS tools, and Bash shell scripting.
                     </p>
                 </td>
                 </tr>
@@ -138,20 +139,44 @@
                 <tr>
                     <td colspan="2">
                     <p>
-                        I interned in Cisco's Enterprise Data Science organization, working on developing a product recommendation engine for Cisco sellers to increase product sales. Our goal was to develop an algorithm that could apply data modeling techniques to historical data to predict which products a customer would be most likely to purchase. I worked with a team of interns to take this project from a business problem to a working data model, and presented our final model to directors at Cisco for integration into the entire company's sales operations. During this internship, I was exposed to Python, R, dplyr, and various data modeling techniques, such as user-based collaborative filtering and market-basket analysis.
+                        I interned in Cisco's Enterprise Data Science organization, working on developing a product recommendation engine for Cisco sellers to increase product sales. Our goal was to develop an algorithm that could apply data modeling techniques to historical data to predict which products a customer would be most likely to purchase. During this internship, I was exposed to Python, R, dplyr, and various data modeling techniques, such as user-based collaborative filtering and market-basket analysis.
                     </p>
                 </td>
                 </tr>
             </table>
         </div>
+    </div>
 
 
 
             <br><br><br>
 
+            <div id="fader4">
             <div id="projects"></div>
             <s4>Projects</s4>
             <hr/>
+
+            <a href="uni.html"><s3>Uni Music App</s3></a>
+            <p>
+            <imgblock>
+                    <a href="uni.html">
+                        <img src="images/uni.png" WIDTH=343 HEIGHT=182>
+                    </a>
+            </imgblock>
+            A design prototype for a music playlist management application.  
+            <br><br>
+            <a href="uni/prototype.html" target="_blank"><i
+            class="fa fa-external-link fa-lg fa-fw"></i></a>
+            <a href="uni.html">Learn more >></a>
+            </p>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             
             <a href="kenbot.html"><s3>Kenbot</s3></a>
             <p>
@@ -171,6 +196,26 @@
             <a href="kenbot.html">Learn more >></a>
             </p>
 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <a href="waitless.html"><s3>WaitLess</s3></a>
+            <p>
+            <imgblock>
+                    <a href="waitless.html">
+                        <img src="images/waitless3.png" WIDTH=343 HEIGHT=182>
+                    </a>
+            </imgblock>
+            An appointment management and check-in system for companies to manage visitors and appointments. Built using a realistic software engineering pipeline.
+            <br><br>
+            <a href="https://emissaryws.herokuapp.com" target="_blank"><i
+            class="fa fa-external-link fa-lg fa-fw"></i></a>
+            <a href="waitless.html">Learn more >></a>
+            </p>
+        </div>
 
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -178,6 +223,7 @@
     </div>
 </body>
 
+<div id="fader5">
 <div id = "footer">
 <a href="http://linkedin.com/in/christiancheng"
                 target="_blank">
@@ -189,16 +235,16 @@
                 <a href="mailto:ccheng@ucsd.edu">
                     <i class="fa fa-envelope fa-lg"></i>
                 </a>
-
+</div>
 </div>
 
 <script>
 $(document).ready(function(){
-    window.setTimeout(function (){ $("#fader").fadeIn(100); }, 100);
-    window.setTimeout(function (){ $("#fader2").fadeIn(800); }, 1600);
-    window.setTimeout(function (){ $("#fader3").fadeIn(800); }, 2400);
-    window.setTimeout(function (){ $("#fader4").fadeIn(800); }, 3200);
-    window.setTimeout(function (){ $("#fader5").fadeIn(800); }, 4000);
+    window.setTimeout(function (){ $("#fader").fadeIn(1); }, 1);
+    window.setTimeout(function (){ $("#fader2").fadeIn(1); }, 1);
+    window.setTimeout(function (){ $("#fader3").fadeIn(1); }, 1);
+    window.setTimeout(function (){ $("#fader4").fadeIn(1); }, 1);
+    window.setTimeout(function (){ $("#fader5").fadeIn(1); }, 1);
     
     $("result").fadeIn(5000);
     $("#toggle").click(function(){
