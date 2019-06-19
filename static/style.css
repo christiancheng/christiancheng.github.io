@@ -225,6 +225,7 @@ imgleft {
 .center {
   display: block;
   margin: auto;
+  float: right;
 }
 
 timediv {
